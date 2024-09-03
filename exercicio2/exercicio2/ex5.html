@@ -1,0 +1,12 @@
+<script>
+    const cigarros = Number(prompt("Quantos cigarros voce fumou?"))
+    const anosfumados = Number(prompt("Quantos anos voce fumou?"))
+    const dias = anosfumados*365
+    const totalcig = cigarros * dias 
+    const min= totalcig*10
+    const perdeu = min/1440 
+
+    alert(`Cigarros fumados:${cigarros}, anos fumando:${anosfumados}, Dias perdidos:${perdeu.toFixed(0)}`)
+   
+
+</script>

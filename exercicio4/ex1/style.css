@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* cor de fundo leve */
+  }
+  
+  form {
+    max-width: 300px; /* largura máxima do formulário */
+    margin: 40px auto; /* centralizar o formulário */
+    padding: 20px; /* espaçamento interno */
+    border: 1px solid #ccc; /* borda leve */
+    border-radius: 10px; /* cantos arredondados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* sombra leve */
+  }
+  
+  h1 {
+    color: #333; /* cor do título */
+    font-size: 24px; /* tamanho do título */
+    margin-bottom: 10px; /* espaçamento abaixo do título */
+  }
+  
+  label {
+    display: block; /* exibir label como bloco */
+    margin-bottom: 10px; /* espaçamento abaixo do label */
+  }
+  
+  input[type="number"] {
+    width: 100%; /* largura do input */
+    height: 30px; /* altura do input */
+    padding: 10px; /* espaçamento interno */
+    border: 1px solid #ccc; /* borda leve */
+    border-radius: 5px; /* cantos arredondados */
+  }
+  
+  input[type="submit"] {
+    background-color: #4CAF50; /* cor do botão */
+    color: #fff; /* cor do texto do botão */
+    padding: 10px 20px; /* espaçamento interno */
+    border: none; /* sem borda */
+    border-radius: 5px; /* cantos arredondados */
+    cursor: pointer; /* ponteiro do mouse */
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #3e8e41; /* cor do botão ao passar o mouse */
+  }
+  
+  h2 {
+    color: #666; /* cor do resultado */
+    font-size: 18px; /* tamanho do resultado */
+    margin-top: 20px; /* espaçamento acima do resultado */
+  }
