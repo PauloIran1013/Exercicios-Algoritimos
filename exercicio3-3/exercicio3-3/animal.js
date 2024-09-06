@@ -29,4 +29,6 @@ function animaClass(animal) {
 }
 
 const categoria = animaClass(animal);
-console.log(`O animal ${animal} é classificado como: ${categoria}`);
+// console.table(`O animal ${animal} é classificado como: ${categoria}`);
+
+console.table({animal, categoria})
