@@ -25,5 +25,5 @@ switch (true) {
 return categoria
 }
 const categoria = determinaCategoria(idade)
-console.log(`Sua Idade é ${idade} e a sua categoria é ${categoria}`);
-
+// console.log(`Sua Idade é ${idade} e a sua categoria é ${categoria}`);
+console.table({idade,categoria})

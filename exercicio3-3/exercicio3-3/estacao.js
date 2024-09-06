@@ -34,4 +34,5 @@ switch (mes) {
 return estacao
 }
 const estacao = descobrirEstacao(mes)
-console.log(`A estação correspondente ao mês ${mes} é: ${estacao}`);
+// console.log(`A estação correspondente ao mês ${mes} é: ${estacao}`);
+console.table({mes,estacao})
