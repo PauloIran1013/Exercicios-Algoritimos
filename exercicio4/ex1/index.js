@@ -18,3 +18,7 @@ function tempf() {
     resp.innerHTML = `Sua temperatura em farenheit é ${fa}`;
     //     document.getElementById("resultado").innerHtml = `Sua temperatura em farenheit é ${f}`
  }
+ function fechar() {
+       window.close()
+ }
+ document.getElementById("fecharJanela").addEventListener("click", fechar);
