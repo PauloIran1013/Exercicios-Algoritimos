@@ -49,3 +49,15 @@ body {
     font-size: 18px; /* tamanho do resultado */
     margin-top: 20px; /* espaçamento acima do resultado */
   }
+  button{
+    background-color: #4CAF50;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: #fff;
+  }
+  button:hover{
+    background-color: #3e8e41;
+   
+  }
