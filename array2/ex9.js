@@ -12,3 +12,4 @@ for (let i = 0; i < n; i++) {
 
 console.log("Array preenchido:");
 console.log(array);
+
